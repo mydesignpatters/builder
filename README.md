@@ -1,2 +1,2 @@
-# builder
-Design Pattern Builder
+# static-factory
+Static Factory Method
