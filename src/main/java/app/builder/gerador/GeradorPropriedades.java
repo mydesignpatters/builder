@@ -1,4 +1,4 @@
-package app.gerador;
+package app.builder.gerador;
 
 import java.util.Map;
 

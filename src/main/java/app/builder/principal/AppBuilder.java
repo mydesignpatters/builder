@@ -1,11 +1,11 @@
-package app.principal;
+package app.builder.principal;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.gerador.BuilderGerador;
-import app.gerador.GeradorArquivo;
+import app.builder.gerador.BuilderGerador;
+import app.builder.gerador.GeradorArquivo;
 
 public class AppBuilder {
     public static void main(String[] args) {
@@ -20,11 +20,12 @@ public class AppBuilder {
 
         try {
             GeradorArquivo ga = new BuilderGerador()
+                                .gerandoEmXML()
                                 .gerandoEmPropriedades(propriedades)
                                 .comCriptografia()
                                 .construir(nome, propriedades);
 
-            System.out.println("Gerando arquivo de propriedades XML compactado...");
+            System.out.println("Gerando arquivo de propriedades XML criptografado...");
             System.out.println("Arquivo " + nome + " gerado com sucesso!");
         } catch (IOException e) {
             System.out.println("Erro ao gerar o arquivo " + nome + " - " + e.getMessage());

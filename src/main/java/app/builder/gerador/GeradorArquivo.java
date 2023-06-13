@@ -1,10 +1,10 @@
-package app.gerador;
+package app.builder.gerador;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
 
-import app.gerador.componente.PosProcessador;
+import app.builder.gerador.componente.PosProcessador;
 
 /**
  * Classe que define o Template Method

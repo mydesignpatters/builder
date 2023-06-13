@@ -1,4 +1,4 @@
-package app.gerador.componente;
+package app.builder.gerador.componente;
 
 import java.io.IOException;
 

@@ -1,13 +1,13 @@
-package app.gerador;
+package app.builder.gerador;
 
 import java.io.IOException;
 import java.util.Map;
 
-import app.gerador.componente.Compactador;
-import app.gerador.componente.Criptografador;
-import app.gerador.componente.NullProcessador;
-import app.gerador.componente.PosProcessador;
-import app.gerador.componente.PosProcessadorComposto;
+import app.builder.gerador.componente.Compactador;
+import app.builder.gerador.componente.Criptografador;
+import app.builder.gerador.componente.NullProcessador;
+import app.builder.gerador.componente.PosProcessador;
+import app.builder.gerador.componente.PosProcessadorComposto;
 
 public class BuilderGerador {
     private GeradorArquivo instancia;

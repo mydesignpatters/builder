@@ -1,13 +1,13 @@
-package app.principal;
+package app.builder.principal;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.gerador.GeradorPropriedades;
-import app.gerador.GeradorXML;
-import app.gerador.componente.Compactador;
-import app.gerador.componente.Criptografador;
+import app.builder.gerador.GeradorPropriedades;
+import app.builder.gerador.GeradorXML;
+import app.builder.gerador.componente.Compactador;
+import app.builder.gerador.componente.Criptografador;
 
 public class App {
     public static void main(String[] args) {
